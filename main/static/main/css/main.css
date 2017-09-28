@@ -4,9 +4,12 @@ html, body {
 }
 
 body {
-    padding: 20px;
     background: url(../img/background.jpg) fixed;
     background-repeat: repeat;
+}
+
+#content {
+    padding: 30px;
 }
 
 ul#menu {
@@ -16,4 +19,30 @@ ul#menu {
 
 ul#menu li {
     display: inline-block;
+}
+
+ul#menu li a, ul#menu li a:hover {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul#menu li a:hover {
+    color: #eee;
+}
+
+header {
+    padding: 10px 50px 50px 50px;
+    background-color: #ff9400;
+    text-align: center;
+}
+
+header h2, header h2 a {
+    font-size: 40px;
+    color: #fff
+}
+
+header h2 a:hover {
+    color: #eee;
+    text-decoration: none;
 }
